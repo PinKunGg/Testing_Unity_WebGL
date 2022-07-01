@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | UnityWebGL_Portfolio</title>
+    <title>Unity WebGL Player | Nattapat-Suracheep_Portfolio</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1600 height=900></canvas>
+      <canvas id="unity-canvas" width=1280 height=720></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">UnityWebGL_Portfolio</div>
+        <div id="unity-build-title">Nattapat-Suracheep_Portfolio</div>
       </div>
     </div>
     <script>
@@ -58,12 +58,12 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/WebGL_Build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebGL_Build.data.br",
-        frameworkUrl: buildUrl + "/WebGL_Build.framework.js.br",
-        codeUrl: buildUrl + "/WebGL_Build.wasm.br",
+        dataUrl: buildUrl + "/WebGL_Build.data.unityweb",
+        frameworkUrl: buildUrl + "/WebGL_Build.framework.js.unityweb",
+        codeUrl: buildUrl + "/WebGL_Build.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "UnityWebGL_Portfolio",
+        productName: "Nattapat-Suracheep_Portfolio",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
@@ -95,8 +95,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "1600px";
-        canvas.style.height = "900px";
+        canvas.style.width = "1280px";
+        canvas.style.height = "720px";
       }
 
       loadingBar.style.display = "block";
